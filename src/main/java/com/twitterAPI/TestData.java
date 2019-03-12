@@ -9,11 +9,6 @@ public class TestData {
     public static String tweet_id_incorrect = "1104849491776244875";
 
     static {
-        int count = 10;
-        boolean useLetters = true;
-        boolean useNumbers = false;
-        tweet = RandomStringUtils.random(count, useLetters, useNumbers);
+        tweet = RandomStringUtils.random(10, true, false);
     }
-
-
 }
